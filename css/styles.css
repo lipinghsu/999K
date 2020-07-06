@@ -33,7 +33,7 @@
     margin-top: -10px;
     width: 44px;
     height: 32px;
-    background-image: url(img/logo.jpeg);
+    background-image: url("..img/logo.jpeg");
     background-size: contain;
 }
 
@@ -74,7 +74,7 @@
 #home{
     height: 100vh;
     min-height: 500px;
-    background: url(/img/pic1.jpg) no-repeat center;
+    background: url("../img/pic1.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -138,7 +138,7 @@
 
 }
 .sticky .logo{
-    background-image: url(/img/logo.jpeg);
+    background-image: url("../img/logo.jpeg");
     background-repeat: no-repeat;
     transition: 0.3s linear;
 }
@@ -348,7 +348,7 @@ section .dark{
 #locaiton{
     height: 100vh;
     min-height: 500px;
-    background: url(/img/pic3.jpg) no-repeat center;
+    background: url("../img/pic3.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
