@@ -18,7 +18,7 @@
     transition: .3s linear;
 }
 .inner-width{
-    max-width: 1300px;
+    max-width: 1800px;
     margin: auto;
     padding: 0 40px;
     padding-top: 10px;
@@ -137,7 +137,7 @@
     
 }
 .sticky .navBar-menu a{
-    color:rgb(252, 238, 164);
+    color:rgb(241, 205, 83);
 
 }
 .sticky .logo{
@@ -218,7 +218,7 @@ section .dark{
     position: absolute;
     width: 104px;
     height: 4px;
-    background-color: rgb(255, 241, 50);
+    background-color: rgb(255, 217, 50);
     bottom: 0;
     left: calc(50%-40px);
 } 
@@ -309,19 +309,18 @@ section .dark{
 
 }
 
-#tail{
+#footer{
     text-align: right;
-    height: 16em;
+
     background-color: black;
     color:rgb(248, 244, 191);
-
     padding: 25px !important;
 }
-#tail .text-body{
+#footer .text-body{
     background-color: black;
 }
 .location p {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     text-transform: uppercase;
     font-size: 17px;
@@ -340,7 +339,7 @@ section .dark{
 .hours{
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 20px;
 
 }
 
