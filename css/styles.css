@@ -80,7 +80,7 @@
     min-height: 500px;
     background: url("../img/pic1.jpg") no-repeat center;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 #home .inner-width{
@@ -183,8 +183,10 @@
         transform: rotate(45deg);
         bottom: 14px;
     }
-    /* #galleries .column{
-    } */
+    #galleries .column{
+        max-height: calc(25vw * 4/3);
+    } 
+
 }
 /* end header */
 .text-align-center{
@@ -247,7 +249,7 @@ section .dark{
     height: auto;
     width: 25%;
     margin: auto;
-    background-attachment: scroll;
+
 }
 
 /* Clear floats after image containers */
