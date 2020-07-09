@@ -7,6 +7,10 @@
 
     box-sizing: border-box;
 }
+.tab {
+    display: inline-block;
+    margin-left: 30px;
+}
 
 .navBar{
     position: fixed;
@@ -40,7 +44,6 @@
 
 .menu-toggler{
     margin-top: -10px;
-
     background: none;
     width: 30px;
     border: none;
@@ -115,20 +118,10 @@
 
 #home .buttons a:hover,
 #home .buttons a:nth-child(2){
-    background-color: rgb(255, 251, 228);
+    background-color: rgb(165, 248, 220);
     transition: 0.5s linear;
 }
-.social-media a{
-    position: relative;
 
-    color: rgb(241, 241, 241);
-    font-size: 32px;
-    margin: 0 5px;
-    transition: .2s linear;
-}
-.social-media a:hover{
-    color: rgb(250, 244, 210);
-}
 
 .sticky{
     background-color: black;
@@ -137,7 +130,7 @@
     
 }
 .sticky .navBar-menu a{
-    color:rgb(241, 205, 83);
+    color:rgb(255, 215, 83);
 
 }
 .sticky .logo{
@@ -147,7 +140,7 @@
     
 }
 .sticky .menu-toggler span{
-    background-color: rgb(245, 227, 128);
+    background-color:rgb(255, 215, 83);
 }
 
 @media screen and (max-width: 680px){
@@ -218,7 +211,7 @@ section .dark{
     position: absolute;
     width: 104px;
     height: 4px;
-    background-color: rgb(255, 217, 50);
+    background-color: rgb(243, 195, 36);
     bottom: 0;
     left: calc(50%-40px);
 } 
@@ -311,9 +304,9 @@ section .dark{
 
 #footer{
     text-align: right;
-
+    height:();
     background-color: black;
-    color:rgb(248, 244, 191);
+    color:rgb(248, 232, 163);
     padding: 25px !important;
 }
 #footer .text-body{
@@ -344,11 +337,6 @@ section .dark{
 }
 
 
-.tab {
-    display: inline-block;
-    margin-left: 30px;
-}
-
 #locaiton{
     height: 100vh;
     min-height: 500px;
@@ -367,4 +355,14 @@ section .dark{
     font-size: 4rem;
     color:white;
     text-align: center;
+}
+.social-media a{
+    position: relative;
+    color: rgb(250, 228, 158);
+    font-size: 32px;
+    margin: 0 5px;
+    transition: .2s linear;
+}
+.social-media a:hover{
+    color: rgb(250, 244, 210);
 }
