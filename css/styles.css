@@ -81,8 +81,8 @@ html{
 #home{
     height: 100vh;
     min-height: 500px;
-    background: url("../img/pic1.jpg") no-repeat center;
-    background-size: 100vw 100vh;
+    background: url("../img/pic1.jpg") no-repeat center center;
+    background-size: 100% 100%;
     
     /* background-size: cover; */
     /*               w   h          width is changing but height is not*/
@@ -150,6 +150,9 @@ html{
 }
 
 @media screen and (max-width: 680px){
+    #home{
+        background: url("../img/pic1_2.jpeg") no-repeat center center;
+    }
     .menu-toggler{
         display: block;
     }
