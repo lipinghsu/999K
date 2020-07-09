@@ -209,7 +209,7 @@ section .dark{
 .section-title::before{
     content: "";
     position: absolute;
-    width: 104px;
+    width: 106px;
     height: 4px;
     background-color: rgb(243, 195, 36);
     bottom: 0;
@@ -241,6 +241,7 @@ section .dark{
 }
 
 .column {
+    max-height: 430px;
     display: flex;
     flex-flow: row nowrap;
     float: right;
